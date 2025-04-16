@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    font-family: sans-serif ;
+    color: white;
+    }
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container {
+
+}
+
+.card {
+    
+}
+
+.card-button button {
+    cursor: pointer;
+}

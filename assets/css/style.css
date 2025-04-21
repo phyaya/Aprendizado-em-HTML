@@ -1,7 +1,12 @@
 body {
     background-color: black;
-    font-family: sans-serif ;
     color: white;
+    border-width: initial;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 8px;
+    padding: 0px;
+    display: block;
     }
 
 h1 {
@@ -10,11 +15,11 @@ h1 {
 }
 
 .container {
-
+    font-family: sans-serif;
 }
 
 .card {
-    
+    margin: 100px;
 }
 
 .card-button button {
@@ -22,7 +27,6 @@ h1 {
     color: white;
     cursor: pointer;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
-    box-shadow: 10px 10px 10px white;
     border: none;
     padding: 14px 25px;
     font-size: 14px;

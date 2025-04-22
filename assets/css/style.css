@@ -23,7 +23,7 @@ h1 {
 }
 
 .card-button button {
-    background: linear-gradient(to right, blue, rgb(87, 87, 241) );
+    background: blue;
     color: white;
     cursor: pointer;
     transition: transform 0.5s ease, box-shadow 0.3s ease;

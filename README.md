@@ -14,4 +14,4 @@ Este portfólio é uma página responsiva e interativa onde você poderá:
 
 # 📌 Acesso
 
-- **Para acessar a página do meu portfólio, basta acessar o link: [Portfólio](https://phyaya.github.io/Portfolio-Pedro/)
+- **Para acessar a página do meu portfólio, basta acessar o link: [Portfólio](https://phyaya.github.io/Portfolio-Pedro/)**

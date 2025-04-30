@@ -1,30 +1,67 @@
 body {
-    background-color: white;
     color: black;
-    border-width: initial;
-    box-sizing: border-box;
+    font-family: sans-serif;
     scroll-behavior: smooth;
-    margin: 8px;
+    margin: 0px;
     padding: 0px;
-    display: block;
     }
 
+#span-pedro {
+    color: #0886fe;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 80px;
     font-weight: bold;
 }
 
-.container {
-    font-family: sans-serif;
+.animate-h1 {
+    animation: fadeIn; 
+    animation-duration: 2s;
+    display: inline-block;
+    margin: 0 0.5rem;
+  }
+  
+.nav li.active a {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    color: #fff;
+    cursor: default;
+    background: #ff6060;
+    -webkit-transition: background .12s ease-out;
+    transition: background .12s ease-out;
 }
 
-.card {
-    margin: 100px;
+.section-one {
+    background:#3e3e3e;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0%;
 }
+li {
+    list-style-type: none;
+  }
+#anim-menu .top {
+    position: relative;
+    height: 50px;
+    z-index: 2;
+}
+
+.section-two {
+    margin: 0px 0px 10px 100px;
+}
+
+.section-three {
+    margin: 0px 0px 10px 100px;
+}
+
+.section-four {
+    margin: 0px 0px 10px 100px;
+}
+
 
 .card-button button {
-    background: blue;
-    color: white;
     cursor: pointer;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
     border: none;

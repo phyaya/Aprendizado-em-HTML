@@ -11,7 +11,7 @@ Este portfólio é uma página responsiva e interativa onde você poderá:
 - 💼 Ver minhas experiências profissionais
 - 🌐 Acessar minhas redes sociais
 - 📎 Baixar meu currículo em PDF
-
+---
 # 📌 Acesso
 
 - **Para acessar a página do meu portfólio, basta acessar o link: [Portfólio](https://phyaya.github.io/Portfolio-Pedro/)**

@@ -21,51 +21,71 @@ body {
 
 #span-pedro {
     color: #0886fe;
+    text-shadow: 0px 0px 10px #0886fe;
 }
 
 .animate-h1 {
     animation: fadeIn; 
     animation-duration: 2s;
     display: inline-block;
-    margin: 0 0.5rem;
+    margin: 0.5rem;
+
   }
   
 
 .navbar {
-    background:#3e3e3e;
+    background:black;
     display: flex;
-    padding: 0.5rem;
+    padding: 1.5rem 10% 3rem;
     align-items: center;
-    
 }
+
 
 .navbar a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    padding: 1rem;
     font-weight: bold;
+    margin-right: 20px;
+    transition-duration: .5s;
+    border-bottom: 3px solid transparent;
 }
 
 
 
+.navbar a:hover {
+    color: #0887fe;
+    text-shadow: 
+       0px 0px 30px #ffffff;
+    border-bottom: 3px solid rgb(153, 209, 255);
+
+}
 
 
-#anim-menu .top {
-    position: relative;
-    height: 50px;
-    z-index: 2;
+
+.navbar span {
+    font-weight: bold;
+    font-size: 60px;
+    padding-right: 4rem;
+    padding-left: .5rem;
 }
 
 
 
 .section-two {
+    background-color: rgb(9, 9, 9);
+}
+.section-two h1 {
     margin: 0px 0px 10px 100px;
-    box-shadow: black;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #ffffff;
+    
 }
 
-.section-two p {
+.section-two p, li, h2 {
     max-width: 500px;
-
+    margin: 0px 0px 10px 100px;
+    color: white;
 }
 
 .section-three {

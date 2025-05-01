@@ -1,18 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+main {
+	padding: 40px 20px;
+	display: flex;
+	justify-content: center;
+}
+
 body {
     color: black;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    margin: 0px;
-    padding: 0px;
     }
 
 #span-pedro {
     color: #0886fe;
 }
 
-h1 {
+#header h1 {
+    text-align: center;
+    padding: 60px;
     font-size: 80px;
     font-weight: bold;
+    max-height: 150px;
+    max-width: auto;
 }
 
 .animate-h1 {
@@ -22,26 +36,43 @@ h1 {
     margin: 0 0.5rem;
   }
   
-.nav li.active a {
+nav li.active a {
+    color: white;
+    display: flex;
     height: auto;
     width: auto;
     overflow: hidden;
-    color: #fff;
     cursor: default;
     background: #ff6060;
     -webkit-transition: background .12s ease-out;
     transition: background .12s ease-out;
+    
+}
+.nav hover{
+    padding: 5px;
 }
 
+li.active a
+
 .section-one {
-    background:#3e3e3e;
-    justify-content: center;
-    margin: 0px 0px 0px 0px;
-    padding: 0%;
+    margin: 14px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.home {
+
 }
 li {
+    
+    background:#3e3e3e;
     list-style-type: none;
+    display: flex;
+    padding-top:10px ;
+    padding-left: 10px;
   }
+
 #anim-menu .top {
     position: relative;
     height: 50px;
@@ -62,14 +93,20 @@ li {
 
 
 .card-button button {
+    color: white;
     cursor: pointer;
+    display: inline-block;
     transition: transform 0.5s ease, box-shadow 0.3s ease;
     border: none;
-    padding: 14px 25px;
-    font-size: 14px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #3e3e3e;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
     
 }
 
 .card-button button:hover {
     transform: scale(1.06);
+    background-color: #ff6060;
   }

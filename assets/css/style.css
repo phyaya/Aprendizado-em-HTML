@@ -3,12 +3,11 @@
     padding: 0px;
 }
 
-
 body {
     color: black;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    }
+}
 
 #header h1 {
     text-align: center;
@@ -29,9 +28,7 @@ body {
     animation-duration: 2s;
     display: inline-block;
     margin: 0.5rem;
-
-  }
-  
+}
 
 .navbar {
     background:black;
@@ -39,7 +36,6 @@ body {
     padding: 1.5rem 10% 3rem;
     align-items: center;
 }
-
 
 .navbar a {
     color: white;
@@ -51,17 +47,11 @@ body {
     border-bottom: 3px solid transparent;
 }
 
-
-
 .navbar a:hover {
     color: #0887fe;
-    text-shadow: 
-       0px 0px 30px #ffffff;
+    text-shadow: 0px 0px 30px #ffffff;
     border-bottom: 3px solid rgb(153, 209, 255);
-
 }
-
-
 
 .navbar span {
     font-weight: bold;
@@ -70,16 +60,14 @@ body {
     padding-left: .5rem;
 }
 
-
-
 .section-two {
     background-color: rgb(9, 9, 9);
 }
+
 .section-two h1 {
     margin: 0px 0px 10px 100px;
     color: #ffffff;
     text-shadow: 0px 0px 10px #ffffff;
-    
 }
 
 .section-two p, li, h2 {

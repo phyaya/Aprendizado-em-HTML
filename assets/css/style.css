@@ -1,38 +1,86 @@
-body {
-    background-color: white;
-    color: black;
-    border-width: initial;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    margin: 8px;
+* {
+    margin: 0px;
     padding: 0px;
-    display: block;
-    }
-
-h1 {
-    font-size: 50px;
-    font-weight: bold;
 }
 
-.container {
+body {
+    color: black;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
-.card {
-    margin: 100px;
+#header h1 {
+    text-align: center;
+    padding: 60px;
+    font-size: 80px;
+    font-weight: bold;
+    max-height: 150px;
+    max-width: auto;
 }
 
-.card-button button {
-    background: blue;
+#span-pedro {
+    color: #0886fe;
+    text-shadow: 0px 0px 10px #0886fe;
+}
+
+.animate-h1 {
+    animation: fadeIn; 
+    animation-duration: 2s;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.navbar {
+    background:black;
+    display: flex;
+    padding: 1.5rem 10% 3rem;
+    align-items: center;
+}
+
+.navbar a {
     color: white;
-    cursor: pointer;
-    transition: transform 0.5s ease, box-shadow 0.3s ease;
-    border: none;
-    padding: 14px 25px;
-    font-size: 14px;
-    
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+    margin-right: 20px;
+    transition-duration: .5s;
+    border-bottom: 3px solid transparent;
 }
 
-.card-button button:hover {
-    transform: scale(1.06);
-  }
+.navbar a:hover {
+    color: #0887fe;
+    text-shadow: 0px 0px 30px #ffffff;
+    border-bottom: 3px solid rgb(153, 209, 255);
+}
+
+.navbar span {
+    font-weight: bold;
+    font-size: 60px;
+    padding-right: 4rem;
+    padding-left: .5rem;
+}
+
+.section-two {
+    background-color: rgb(9, 9, 9);
+}
+
+.section-two h1 {
+    margin: 0px 0px 10px 100px;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+.section-two p, li, h2 {
+    max-width: 500px;
+    margin: 0px 0px 10px 100px;
+    color: white;
+}
+
+.section-three {
+    margin: 0px 0px 10px 100px;
+}
+
+.section-four {
+    margin: 0px 0px 10px 100px;
+}
+

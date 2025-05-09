@@ -84,3 +84,6 @@ body {
     margin: 0px 0px 10px 100px;
 }
 
+details:hover {
+    transition-duration: .5s;
+}
